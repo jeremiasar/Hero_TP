@@ -39,17 +39,13 @@ a{
     color:black;
     background: none;
 }
+a:hover{
+    text-decoration:underline;
+    }
 
-/* main{
-    height: 40vh;
-    position: absolute;
-    left: 0;
-    right:0;
-    top: 0;
-    bottom: 0;
-    z-index: -30;
-    
-} */
+h2:hover{
+     text-decoration:underline;
+}
 
 .primertexto{
     font-weight: 400;
@@ -68,15 +64,9 @@ i{
 }
 
 div{
-    
     display: flex;
-    /* justify-content: space-around; */
     margin-top: 35vh;
-    /* position: absolute; */
-    /* top: 50vh; */
-    /* z-index: 20; */
     align-items: center;
-    /* border: 2px solid red; */
 }
 
 .textoleft{
@@ -89,10 +79,7 @@ div{
     left: 0%;
     top:42%;
     z-index: 3;
-    /* margin: 0 auto; */
     padding: 15px 15%;
-    /* margin-right: 5%; */
-    /* border: 2px solid red; */
     cursor: default;
 }
 
@@ -110,15 +97,12 @@ div{
     right: 0;
     z-index: 3;
     padding:  0 0 0 30px;
-    /* padding-left: 20px; */
-    /* border: 2px solid blue; */
 }
 .textoderecho{
     font-size: 24px;
     font-weight: 500;
     width: 15%;
     padding: 24px 15%;
-    /* margin-left: 5% ; */
     position: absolute;
     left: 53%;
     top:42%;
@@ -126,7 +110,6 @@ div{
     z-index: 3;
     background: none;
     cursor: default;
-    /* border: 2px solid red; */
 }
 
 .lastext{
@@ -134,7 +117,6 @@ div{
     color: rgb(231, 225, 212);
     font-weight: 400;
     text-align: center;
-    /* margin: 15vh 22% 0 50%; */
     padding: 17px 2% 17px 10%;
     position: absolute;
     left: 50%;
@@ -147,17 +129,6 @@ div{
     background-color: rgb(49, 49, 53);
 }
 
-/* footer{
-    padding: 10px 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -200;
-    background:none;
-   /* border: 2px solid red;*/
-    /* width: 90%; */
-   /* margin: 0 5%;
-} */
 
 .inicialf{
     position: absolute;
@@ -165,12 +136,6 @@ div{
     bottom: 5%;
     background: none;
     z-index: 5;
-   /* margin: 0;
-    width: 33%;
-    padding:0 18%;
-    border: 2px solid green; 
-    background: none;
-    margin-right:10%;*/
 }
 
 h3{
@@ -186,12 +151,6 @@ h3{
     background:none;
     color: white;
 
-    /* color:white;
-    position: absolute;
-    bottom: 10%;
-    z-index: 10;
-    background: none;
-    border: 2px solid violet;*/
 } 
 
 .finalf{
@@ -200,8 +159,6 @@ h3{
     bottom: 5%;
     z-index: 3;
 
-    /* background: none;
-    margin-left: 10%; */
 } 
  .finalf i{
     background-color: rgb(231, 225, 212);
