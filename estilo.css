@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 225, 212);
+   
+
+}
+
+body{
+     position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    z-index: -30;
+}
+
+img{
+    height: 90vh;
+    position: absolute;
+    left:35%;
+    bottom: 0;
+    z-index: 4;
+    background: none;
+}
+
+nav{
+    height: 10vh;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background: none;
+}
+
+/* main{
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    z-index: -30;
+    
+} */
+
+.primertexto{
+    font-weight: 400;
+    background-color: rgb(211, 210, 210);
+    padding: 20px;
+    padding-right: 8%;
+    position: absolute;
+    left: 25%;
+    top:20vh;
+    z-index: 3;
+    cursor:pointer;
+}
+
+i{
+    background-color: rgb(211, 210, 210);
+}
+
+div{
+    
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 35vh;
+    /* position: absolute; */
+    /* top: 50vh; */
+    /* z-index: 20; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.textoleft{
+    width: 30%;
+    background-color: rgb(49, 49, 53);
+    color:  rgb(231, 225, 212);
+    font-size: 14px;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    top:42%;
+    z-index: 3;
+    /* margin: 0 auto; */
+    padding: 15px 15%;
+    /* margin-right: 5%; */
+    /* border: 2px solid red; */
+    cursor: default;
+}
+
+
+.fondor{
+    background-color: rgb(211, 210, 210);
+    color:rgb(231, 225, 212);
+    font-weight: 500;
+    font-size: 60px;
+    width: 47.5%;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top:42%;
+    right: 0;
+    z-index: 3;
+    padding:  0 0 0 30px;
+    /* padding-left: 20px; */
+    /* border: 2px solid blue; */
+}
+.textoderecho{
+    font-size: 24px;
+    font-weight: 500;
+    width: 15%;
+    padding: 24px 15%;
+    /* margin-left: 5% ; */
+    position: absolute;
+    left: 53%;
+    top:42%;
+    right: 0;
+    z-index: 3;
+    background: none;
+    cursor: default;
+    /* border: 2px solid red; */
+}
+
+.lastext{
+    background-color: rgb(49, 49, 53);
+    color: rgb(231, 225, 212);
+    font-weight: 400;
+    text-align: center;
+    /* margin: 15vh 22% 0 50%; */
+    padding: 17px 2% 17px 10%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.bi-chevron-right{
+    background-color: rgb(49, 49, 53);
+}
+
+/* footer{
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -200;
+    background:none;
+   /* border: 2px solid red;*/
+    /* width: 90%; */
+   /* margin: 0 5%;
+} */
+
+.inicialf{
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    background: none;
+    z-index: 5;
+   /* margin: 0;
+    width: 33%;
+    padding:0 18%;
+    border: 2px solid green; 
+    background: none;
+    margin-right:10%;*/
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.mediumf{
+    position: absolute;
+    left: 44%;
+    bottom: 5%;
+    z-index: 5;
+    background:none;
+    color: white;
+
+    /* color:white;
+    position: absolute;
+    bottom: 10%;
+    z-index: 10;
+    background: none;
+    border: 2px solid violet;*/
+} 
+
+.finalf{
+    position:absolute;
+    left: 69%;
+    bottom: 5%;
+    z-index: 3;
+
+    /* background: none;
+    margin-left: 10%; */
+} 
+ .finalf i{
+    background-color: rgb(231, 225, 212);
+ }
+
+.mediumf h3{
+    background: none;
+}
+
+.mediumf p{
+    background: none;
+}
+
+.bi-infinity{
+    font-weight: 800;
+}
